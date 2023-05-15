@@ -914,11 +914,11 @@ Rod::doRHS()
 	if (r[N][2] > r[0][2]) {
 		r_top = r[N];
 		r_bottom = r[0];
-		real zeta_i = zeta[N];
+		zeta_i = zeta[N];
 	} else {
 		r_top = r[0];
 		r_bottom = r[N];
-		real zeta_i = zeta[0];
+		zeta_i = zeta[0];
 	}
 
 	if ((r_bottom[2] < zeta_i) && (r_top[2] > zeta_i)) {

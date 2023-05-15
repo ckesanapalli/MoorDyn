@@ -64,3 +64,11 @@ build
 dist
 
 /source/.vscode
+*obj
+*.vs
+*.pdb
+*log
+*.exp
+*ilk
+*.receipe
+*ipdb
